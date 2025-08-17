@@ -1,0 +1,30 @@
+{
+  "name": "codelikesuraj/vanguard-php",
+  "type": "library",
+  "description": "\"A lightweight PHP SDK for capturing and/or sending application errors to the Vanguard dashboard\"",
+  "homepage": "http://vanguard.abdulbakisuraj.com",
+  "license": "MIT",
+  "keywords": [
+    "error-logging",
+    "error-monitoring",
+    "logging",
+    "monitoring",
+    "vanguard"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codelikesuraj\\Vanguard\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abdulbaki Suraj",
+      "email": "surajabdulbaki19@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*"
+  },
+  "prefer-stable": true
+}
